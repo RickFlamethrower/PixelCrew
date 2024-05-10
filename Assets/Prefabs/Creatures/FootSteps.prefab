@@ -26,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3174202591986924535}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.231, y: -0.063, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3174202591986924528
 SpriteRenderer:
@@ -115,8 +115,13 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _clips:
-  - _name: 
-    _sprites: []
+  - _name: Run
+    _sprites:
+    - {fileID: 21300000, guid: aff958e6371ed9644ba7ec7c81028f3f, type: 3}
+    - {fileID: 21300000, guid: 2f57625ca498ec0439ab91464a703775, type: 3}
+    - {fileID: 21300000, guid: 2b7a0ca80a5d3df44b50fe9339588a5c, type: 3}
+    - {fileID: 21300000, guid: 8cbd9974c29b27244af738467c69afde, type: 3}
+    - {fileID: 21300000, guid: 65a6072577001474ba6fb3b9eadfd200, type: 3}
     _loop: 0
     _allowNextClip: 0
     _onComplete:

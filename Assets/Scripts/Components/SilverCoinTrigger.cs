@@ -14,7 +14,7 @@ namespace PixelCrew.Components
          {
             if (collision.CompareTag("Player"))
             {
-                Coin.coin += _silverCoinPoint;
+                 HeroMove.Session.Data.Coins += _silverCoinPoint;
                 Destroy(gameObject);
             }
          }

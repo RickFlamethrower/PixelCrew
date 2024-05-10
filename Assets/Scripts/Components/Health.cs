@@ -15,7 +15,7 @@ public class Health : MonoBehaviour
     }
     
     public void Update()
-        {
-            HealthCount();
-        }
+    {
+        HealthCount();
+    }
 }

@@ -11,7 +11,7 @@ public class GoldenColinTrigger : MonoBehaviour
          {
             if (collision.CompareTag("Player"))
             {
-                Coin.coin += _goldenCoinPoint;
+                HeroMove.Session.Data.Coins += _goldenCoinPoint;
                 Destroy(gameObject);
             }
          }

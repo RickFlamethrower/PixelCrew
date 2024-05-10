@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class Coin : MonoBehaviour
 {
     public Text coinText;
-    public static int coin;
+    //public static int coin;
     
 
     void Update()
     {
-        coinText.text = "$" + coin;
+        coinText.text = "$" + HeroMove.Session.Data.Coins;
     }    
 }

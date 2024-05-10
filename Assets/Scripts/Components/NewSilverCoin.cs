@@ -12,7 +12,7 @@ namespace PixelCrew.Components
         {
             if (collision.gameObject.tag == "Player")
             {
-                Coin.coin += _silverCoinPoint;
+                HeroMove.Session.Data.Coins += _silverCoinPoint;
                 Destroy(gameObject);
             }
             

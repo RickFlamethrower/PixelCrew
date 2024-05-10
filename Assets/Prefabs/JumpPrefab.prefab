@@ -26,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7115989822929978116}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 21.956697, y: 1.8083949, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &355638856986462557
 SpriteRenderer:
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4ec7e98d06649146875b86c324835a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _frameRate: 20
+  _frameRate: 10
   _onComplete:
     m_PersistentCalls:
       m_Calls:
@@ -115,8 +115,14 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _clips:
-  - _name: 
-    _sprites: []
+  - _name: Jump
+    _sprites:
+    - {fileID: 21300000, guid: a9db37129ad26e2458686a0fdae140ab, type: 3}
+    - {fileID: 21300000, guid: e526f5fe84ad21042b939580ac74a2a2, type: 3}
+    - {fileID: 21300000, guid: fbd5e6e6ab82a374b9a9fda5482c5745, type: 3}
+    - {fileID: 21300000, guid: e28920385a7dbc249bf8a14e14e9c3a1, type: 3}
+    - {fileID: 21300000, guid: 070185f70113bd44db934f4f456cedc3, type: 3}
+    - {fileID: 21300000, guid: 0f3ce69351528644e9ba8a54b81b6a2e, type: 3}
     _loop: 0
     _allowNextClip: 0
     _onComplete:
